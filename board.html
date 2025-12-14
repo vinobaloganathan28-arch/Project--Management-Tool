@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadBoard()">
+
+<h2 id="projectTitle"></h2>
+
+<input type="text" id="taskText" placeholder="New Task">
+<button onclick="addTask()">Add Task</button>
+
+<div class="board">
+  <div>
+    <h3>To Do</h3>
+    <div id="todo"></div>
+  </div>
+
+  <div>
+    <h3>In Progress</h3>
+    <div id="progress"></div>
+  </div>
+
+  <div>
+    <h3>Done</h3>
+    <div id="done"></div>
+  </div>
+</div>
+
+<br>
+<a href="dashboard.html">⬅ Back to Dashboard</a>
+
+<script src="script.js"></script>
+</body>
+</html>
